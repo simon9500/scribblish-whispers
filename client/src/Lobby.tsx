@@ -22,6 +22,8 @@ export const Lobby = (props: LobbyProps) => (
         <li>
           <input
             type="text"
+            maxLength={25}
+            size={25}
             defaultValue={props.yourName}
             onBlur={(e) => props.changeName(e.target.value)}
           />
