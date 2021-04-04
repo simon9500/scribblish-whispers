@@ -13,6 +13,8 @@ if (process.env.NODE_ENV === "development") {
 const socket =
   process.env.NODE_ENV === "development" ? io(`http://localhost:${debugPort}`) : io();
 
+// To set the room code to 12345 append /12345 to the end of the url like so:
+// http://localhost:3000/12345
 const roomCode = window.location.pathname.match(/\/(\w+)$/)![1];
 console.log("Room code:", roomCode);
 
