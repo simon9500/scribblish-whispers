@@ -94,4 +94,13 @@ export const captionPool = [
   "Sharks with guns",
   "Hugging your favourite hammer",
   "A tree growing out of a gorilla's back",
+  "King Kong doing his laundry",
+  "Eating too many easter eggs",
+  "A painting that is out of place",
+  "Squirrels at war",
+  "A silent rave",
+  "A game that makes no sense",
+  "Going backwards in time",
+  "A successful businessman",
+  "Ants take over the world"
 ];
